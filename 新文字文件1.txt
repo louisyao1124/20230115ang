@@ -1,0 +1,102 @@
+
+
+https://matthung0807.blogspot.com/2019/06/angular-7-event-binding.html
+
+
+https://stackblitz.com/edit/angular-10-modal-example?file=src%2Fapp%2Fhome%2Fhome.component.html
+
+
+https://material.angular.io/components/dialog/overview
+
+
+https://www.redis.com.cn/redis-installation.html
+
+
+https://marcus116.blogspot.com/2019/02/how-to-run-redis-in-docker.html
+
+
+
+D:\dotnet1\pj1
+
+https://www.entityframeworktutorial.net/efcore/create-model-for-existing-database-in-ef-core.aspx
+https://learn.microsoft.com/zh-tw/ef/core/cli/dotnet
+dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+dotnet ef dbcontext scaffold "Server=(localdb)\mssqllocaldb;Database=Blogging;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+
+            services.AddDbContext<NorthwindContext>(options =>
+              options.UseSqlServer("Data Source=(LocalDB)\\\\MSSQLLocalDB;DataBase=Northwind;Integrated Security=True;Connect Timeout=30"));
+
+
+"Server=.\SQLExpress;Database=a1;Trusted_Connection=True;MultipleActiveResultSets=true"
+
+
+ "BloggingDatabase": "Server=.\\SQLExpress;Database=a1;Trusted_Connection=True;"
+
+DESKTOP-QG3M7J1
+
+
+  "ConnectionStrings": {
+    "BloggingDatabase": "Server=.\\SQLExpress;Database=a1;Trusted_Connection=True;"
+  }
+
+
+
+http://DESKTOP-QG3M7J1
+
+D:\dotnet1\projets\EFCore
+
+    "CardSqlServerDB": "Server=(localdb)\\mssqllocaldb;Database=CardSqlServerDB;Trusted_Connection=True;MultipleActiveResultSets=true",
+
+    "LocalexSqlServerDB": "Server=(localdb)\\mssqllocaldb;Database=CardSqlServerDB;Trusted_Connection=True;MultipleActiveResultSets=true",
+
+有內容的
+D:\dotnet1\projets\EFCore\EFCore_DbContextConfig
+
+http://desktop-qg3m7j1/orm
+http://desktop-qg3m7j1/ormapi
+
+D:\dotnet1\pj1\a2\a2
+
+
+1.強制險只能保障車禍事故中別人的受傷，包含自己車上的乘客、別車的駕駛 & 乘客、以及路人等；不能保障自己車上的駕駛(本人)受傷。
+
+2.第三責任險:他車,他車上之人,傷,亡
+
+3.駕駛人傷害險
+
+
+1.appsettings.json
+
+  "ConnectionStrings": {
+    "CardSqlServerDB": "Server=(localdb)\\mssqllocaldb;Database=CardSqlServerDB;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "CardSqliteDB": "Data Source = CardSqliteDB.db",
+    "CardMySqlDB": "server=localhost;database=CardMySqlDB;user=root;password=skymax069"
+    //   "ConnectionStrings": {
+    "BloggingDatabase": "Server=.\\SQLExpress;Database=a1;Trusted_Connection=True;"
+
+2.ConfigureServices
+        public void ConfigureServices(IServiceCollection services)
+        {
+            services.AddControllersWithViews();
+
+            services.AddDbContext<CardContext>(options => options.UseSqlServer(_config.GetConnectionString("CardSqlServerDB")));
+        }
+   // "BloggingDatabase": "Server=.\\SQLExpress;Database=a1;Trusted_Connection=True;"
+  }
+
+
+DESKTOP-QG3M7J1\SQLEXPRESS
+
+
+
+
+
+https://www.kymco.com.tw/motor/freeway#specification
+VCS
+
+
+
+將 ASP.NET Core 應用程式發佈到 IIS
+https://learn.microsoft.com/zh-tw/aspnet/core/tutorials/publish-to-iis?view=aspnetcore-7.0&tabs=visual-studio
